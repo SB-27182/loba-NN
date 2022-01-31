@@ -73,7 +73,7 @@ Loba-NN is able to discover, not only the oscillator of the non-bifurcated phase
   </kbd>
 </p>
 
-&nbsp; Here we've used loba-NN to repeatedly generate 100 observations, conditioned on small regions of x<sub>3</sub>; &nbsp; &nbsp; *LL < x<sub>3</sub> < UL*<br>
+&nbsp; Here we've used loba-NN to repeatedly generate 100 observations, conditioned on small regions of x<sub>3</sub>; &nbsp; <br> *LL < x<sub>3</sub> < UL*<br>
 We see that when the conditioning parameter is about 1.9, the system changes into an *oblong* shape. We would like to know if the manifold of the data is itself *oblong* shaped about this value of x<sub>3</sub>, or if there is perhaps something else going on.
 
 <br>
