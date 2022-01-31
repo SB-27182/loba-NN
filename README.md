@@ -93,16 +93,18 @@ Loba-NN is indicating it is much more *unsure* of the discovered oscillator when
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_lowVar.png" height=245 width=250/>
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoBothDims_lowVar.png" height=245 width=250/>
   &nbsp;
-  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_highVar.png" height=250 width=250 />
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoBothDims_highVar.png" height=250 width=250 />
   </kbd>
 </p>
 <br>
 <p align="center">
-  <img src="http://some_place.com/image.png" />
+  <kbd>
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_lowVar.png" height=245 width=250/>
   &nbsp;
-  <img src="http://some_place.com/image.png" />
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_highVar.png" height=250 width=250 />
+  </kbd>
 </p>
 
 To further investigate the behavior of the estimated generator function, we may artificially down-scale the conditional variance of one latent variable, and leave the other unchanged. This reveals that about the critical-value of x<sub>3</sub>, one latent variable supports the oscillator, while the other is in the process of learning the bifurcated limit-cycle. <br>
