@@ -20,21 +20,21 @@ Loba-NN is an invertible-flow neural network that emphasizes the existence of hi
  Compared to mainstream invertible-flow networks,<sup>[*Baird.*](https://ieeexplore.ieee.org/document/1555983)[*Tabak.*](https://math.nyu.edu/~tabak/publications/Tabak-Turner.pdf)[*Dinh.*](https://arxiv.org/pdf/1410.8516.pdf)</sup> loba-NN's primary differing attribute is it's latent density function:
 <p align="center">
   <kbd>
-  <img src="Math/mod_latentPDF.png" width=433 height=144/>
+  <img src="Math/mod_latentPDF.png" width=400 height=133/>
   </kbd>
 </p>
 
 
 <p align="center">
   <kbd>
-  <img src="Math/mod_latentPDF2.jpg" width=500 height=90/>
+  <img src="Math/mod_latentPDF2.jpg" width=525 height=95/>
     </kbd>
 </p>
 
 
 <p align="center">
   <kbd>
-  <img src="Math/mod_latentPDF3.jpg" width=500 height=78/>
+  <img src="Math/mod_latentPDF3.jpg" width=525 height=82/>
     </kbd>
 </p>
 
