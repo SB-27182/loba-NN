@@ -73,7 +73,7 @@ Loba-NN is able to discover, not only the oscillator of the non-bifurcated phase
   </kbd>
 </p>
 
-&nbsp; Here we've used loba-NN to repeatedly generate 100 observations, conditioned on small regions of x<sub>3</sub>; &nbsp;  *LL < x<sub>3</sub> < UL*<br>
+Here we've used loba-NN to repeatedly generate 100 observations, conditioned on small regions of x<sub>3</sub>; &nbsp;  *LL < x<sub>3</sub> < UL*<br>
 We see that when the conditioning parameter is about 1.9, the system changes into an *oblong* shape. We would like to know if the manifold of the data is itself *oblong* shaped about this value of x<sub>3</sub>, or if there is perhaps something else going on.
 
 <br>
@@ -85,7 +85,7 @@ We see that when the conditioning parameter is about 1.9, the system changes int
   </kbd>
 </p>
 
-&nbsp; Indeed, we can not simply assume the manifold is itself *oblong*. There is a huge spike in the variance when 1.8 < x<sub>3</sub> < 2.2 <br>
+Indeed, we can not simply assume the manifold is itself *oblong*. There is a huge spike in the variance when 1.8 < x<sub>3</sub> < 2.2 <br>
 (*One may notice that shortly after the spike, the variance comes back down to a smoother value; I believe this is an indication of a hysteresis threshold involved in the system, however more analysis is forthcoming.*)<br>
 At any rate, loba-NN is indicating it is much more *unsure* of the discovered oscillator when the conditioning parameter is around certain values.
 
