@@ -153,7 +153,7 @@ Of course, there's more interesting phenotypes that can be developed beyond a si
 
 ## `Weaknesses:`
 &nbsp;The bijectivity of the probability-space transform performed by loba-NN and other invertible-flow networks allows one to specify structural qualities in the manifold of the data, however this bijectivity requirement means that discrete structures (wherein a probability-mapping/surjective-mapping must be used) such as clusters separated by large
-euclidean distances are not suitable. Although Loba-NN will learn to place a low probability manifold in these spaces, it will still consider "something" to be there, when it should assume nothing is there.
+euclidean distances are not suitable. Although loba-NN will learn to place a low probability manifold in these spaces, it will still consider "something" to be there, when it should assume nothing is there.
 <br>
 This issue can be investigated by considering the differences of a ***stochastic mapping*** and a ***bijective mapping***. 
 - ***Bijective mappings*** require that the space-transform from the input space to the output space, be a  continuous manifold; naturally this means that the domain and the co-domain must be equal in number of dimensions. In a nutshell, the only way loba-NN can interpret clusters is via "walking the distance" from cluster to cluster.
@@ -163,7 +163,7 @@ This issue can be investigated by considering the differences of a ***stochastic
 
 **Stochastic mapping NNs however, are very well equipped for hyper dimensional clustering <sup>[*Jiang.*](https://arxiv.org/abs/1611.05148)</sup>.**
 
-**In short:** one should use a VAE to account for discrete structures in the data. Deeper insights can then be acquired by deploying an invertible-flow network, like loba-NN, on these partitioned continuous manifolds.
+**In short:** one should use a VAE to account for discrete structures in the continuous data. Deeper insights can then be acquired by deploying an invertible-flow network, like loba-NN, on these partitioned continuous manifolds.
 
 
 
