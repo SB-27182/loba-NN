@@ -42,7 +42,7 @@ Loba-NN is an invertible-flow neural network that emphasizes the existence of hi
  &nbsp; Note: I-naught is the zero-order Bessel equation.*</sub>
 
 &nbsp; The *PDF* can be readily described as a conditional density function wherein the latent density *Z* is Gaussian, when conditioned on the mean being distributed by a von-Mises density. Further, the latent parameters are conditioned on the observed variable x<sub>3</sub>; this conditioning thus imparts identifiability for the ***disentangled***<sup>[*Tokui.*](https://arxiv.org/pdf/2108.13753.pdf)</sup> latent variables.<br>
-Other than the latent density, the model uses affine coupling-layers<sup>[*Dinh.*](https://arxiv.org/pdf/1605.08803.pdf)</sup>, coupled batch-standardization<sup>[*Kingma*](https://arxiv.org/pdf/1807.03039.pdf)</sup>, and one conditional coupling layer<sup>[*Winkler.*](https://arxiv.org/pdf/1912.00042.pdf)</sup>.<br>
+Other than the latent density, the model uses affine coupling-layers,<sup>[*Dinh.*](https://arxiv.org/pdf/1605.08803.pdf)</sup> coupled batch-standardization,<sup>[*Kingma*](https://arxiv.org/pdf/1807.03039.pdf)</sup> and one conditional coupling layer<sup>[*Winkler.*](https://arxiv.org/pdf/1912.00042.pdf)</sup>.<br>
 The overarching pattern is a standard invertible-flow network, *ie*: built to exploit the invariance property of maximum-likelihood estimators through maintaining bijectivity at each layered space-transform.
 
 <br>
