@@ -80,7 +80,7 @@ We see that when the conditioning parameter is about 1.9, the system changes int
 <br>
 
 <p align="center">
-  <img src="http://some_place.com/image.png" />
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/CondVar.png" width=500 height=500 />
 </p>
 
 &nbsp; Indeed, we can not simply assume the manifold is itself *oblong*. There is a huge spike in the variance when 1.8 < x<sub>3</sub> < 2.2 <br>
