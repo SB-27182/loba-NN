@@ -96,6 +96,7 @@ Loba-NN is indicating it is much more *unsure* of the discovered oscillator when
   <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_lowVar.png" height=245 width=250/>
   &nbsp;
   <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoDim0_highVar.png" height=250 width=250 />
+  </kbd>
 </p>
 <br>
 <p align="center">
