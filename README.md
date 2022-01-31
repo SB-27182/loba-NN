@@ -58,7 +58,9 @@ Further complicating the data is that only in some instances does the respective
 Loba-NN is able to discover, not only the oscillator of the non-bifurcated phase-space, but also the latent behavior of the Hopf-bifurcation, as well as the ***lag*** given by the hysteresis of the dynamical system.
 
 <p align="center">
+  <kbd>
   <img src=https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/hopfBif2.png width=500 height=391 />
+  </kbd>
 </p>
 <br>
 
@@ -66,7 +68,9 @@ Loba-NN is able to discover, not only the oscillator of the non-bifurcated phase
 ## `Mined Characteristics: ` 
 
 <p align="center">
-  <img src="http://some_place.com/image.png" />
+  <kbd>
+  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/slices-DARK-NEW.gif" width=500 height=416 />
+  </kbd>
 </p>
 
 &nbsp; Here we've used loba-NN to repeatedly generate 100 observations, conditioned on small regions of x<sub>3</sub>; &nbsp; &nbsp; *LL < x<sub>3</sub> < UL*<br>
