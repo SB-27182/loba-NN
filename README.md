@@ -52,7 +52,7 @@ As intended in the goal, loba-NN can mine conditionally varying estimators intri
 
 <br>
 
-`Example:` &nbsp; Consider the data below. <br> It is drawn from a simulated dynamical system characterized by a ***subcritical Hopf-bifurcation***.<br>
+`Example:`&nbsp; Consider the data below. <br> It is drawn from a simulated dynamical system characterized by a ***subcritical Hopf-bifurcation***.<br>
 We may note that the respective limit-cycle is longer on the y-axis; it emerges when the z-axis parameter (x<sub>3</sub>) is about some purportedly unknown critical value.<br>
 Further complicating the data is that only in some instances does the respective saddle-node bifurcation (the limit-cycle) emerge; further, we recall that the nature of a subcritical Hopf-bifurcation is to impart ***hysteresis*** to the sampled data. <br>
 Loba-NN is able to discover, not only the oscillator of the non-bifurcated phase-space, but also the latent behavior of the Hopf-bifurcation, as well as the ***lag*** given by the hysteresis of the dynamical system.
