@@ -162,7 +162,7 @@ euclidean distances are not suitable. Although loba-NN will learn to place a low
 <br>
 This issue can be investigated by considering the differences of a ***stochastic mapping*** and a ***bijective mapping***. 
 - ***Bijective mappings*** require that the space-transform from the input space to the output space, be a  continuous manifold; naturally this means that the domain and the co-domain must be equal in number of dimensions. In a nutshell, the only way loba-NN can interpret clusters is via "walking the distance" from cluster to cluster.
--  ***Stochastic mappings*** can map from a domain of any size, to a codomain of any size. This is because they learn a probabilistic density that maps between spaces. In simple words, any constraints placed on the latent density of a VAE, will be "jumped over" via a probability-mapping.
+-  ***Stochastic mappings*** can map from a domain of any size, to a codomain of any size. This is because they learn a probabilistic density that maps between spaces. In simple words, any constraints placed on the latent density-space of a VAE, will be "jumped over" via a probability-mapping.
 
 <br>
 
