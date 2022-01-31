@@ -85,7 +85,8 @@ We see that when the conditioning parameter is about 1.9, the system changes int
   </kbd>
 </p>
 
-&nbsp; Indeed, we can not simply assume the manifold is itself *oblong*. There is a huge spike in the variance when 1.8 < x<sub>3</sub> < 2.2 <br>
+&nbsp; Indeed, we can not simply assume the manifold is itself *oblong*. <br>
+There is a huge spike in the variance when 1.8 < x<sub>3</sub> < 2.2 <br>
 (*One may notice that shortly after the spike, the variance comes back down to a smoother value; I believe this is an indication of a hysteresis threshold involved in the system, however more analysis is forthcoming.*)<br>
 Loba-NN is indicating it is much more *unsure* of the discovered oscillator when the conditioning parameter is around certain values.
 
