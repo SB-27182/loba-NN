@@ -5,8 +5,6 @@
   <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrtho_logo.png", width=237, height=219 />
 </p>
 
-<br>
-
 ## `Goal: `
 Mine relevant estimators from data where the data has been produced by an unknown oscillatory generator function.
 
