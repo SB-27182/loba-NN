@@ -27,14 +27,14 @@ Loba-NN is an invertible-flow neural network that emphasizes the existence of hi
 
 <p align="center">
   <kbd>
-  <img src="Math/mod_latentPDF2.jpg" width=500 height=100/>
+  <img src="Math/mod_latentPDF2.jpg" width=500 height=90/>
     </kbd>
 </p>
 
 
 <p align="center">
   <kbd>
-  <img src="Math/mod_latentPDF3.jpg" width=500 height=83/>
+  <img src="Math/mod_latentPDF3.jpg" width=500 height=78/>
     </kbd>
 </p>
 
