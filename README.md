@@ -2,7 +2,7 @@
 # `Loba-NN:` &nbsp; <ins>*l*</ins>atent <ins>*o*</ins>scilatory <ins>*b*</ins>ayesian <ins>*a*</ins>nalysis
 
 <p align="center">
-  <img src="http://some_place.com/image.png" />
+  <img src=https://github.com/SB-27182/loba-NN/blob/master/Math/mod_latentPDF.png />
 </p>
 
 <br>
