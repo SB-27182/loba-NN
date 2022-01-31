@@ -124,13 +124,13 @@ Fortunately, we may infer the trajectory of what's being learned by loba-NN.
 ## `Other Strengths: `
 
 ##### `Immunity to Mode Collapse:`
-&nbsp; Unlike auto-regressive models, the existence of multiple clusters (and their modes) in the data does not cause a **logical error** *ie*: a mode-collapse. Although discrete structures such as multiple modes are not ideal for our purposes (more on that later), loba-NN, and all invertible-flow networks will happily bend hyper dimensional space to make sense of the observed probability density.
+Unlike auto-regressive models, the existence of multiple clusters (and their modes) in the data does not cause a **logical error** *ie*: a mode-collapse. Although discrete structures such as multiple modes are not ideal for our purposes (more on that later), loba-NN, and all invertible-flow networks will happily bend hyper dimensional space to make sense of the observed probability density.
 
 
 <br>
 
 ##### `Immunity to the "Curse of Dimensionality":`
-&nbsp; Most clustering algorithms and auto-regressive models, *ie*: algorithms that optimize a euclidean measure in probability space, must face the realization that a 100-dimensional box has quite a lot of walls. This is to say, a box in 100 dimensions must have a combinatoric explosion worth of data points. Unlike euclidean measures, probabilistic measures of space are more abstract, there is no geometric kernel to them. Indeed, invertible-flow neural networks and their stochastic-mapping cousins, the VAE models<sup>[*Kingma.*](https://arxiv.org/pdf/1312.6114.pdf)</sup>, were intentionally built for hyper-dimensional data, *ie*: high resolution photos like celebrity-faces. 
+Most clustering algorithms and auto-regressive models, *ie*: algorithms that optimize a euclidean measure in probability space, must face the realization that a 100-dimensional box has quite a lot of walls. This is to say, a box in 100 dimensions must have a combinatoric explosion worth of data points. Unlike euclidean measures, probabilistic measures of space are more abstract, there is no geometric kernel to them. Indeed, invertible-flow neural networks and their stochastic-mapping cousins, the VAE models<sup>[*Kingma.*](https://arxiv.org/pdf/1312.6114.pdf)</sup>, were intentionally built for hyper-dimensional data, *ie*: high resolution photos like celebrity-faces. 
 
 
 
@@ -138,7 +138,7 @@ Fortunately, we may infer the trajectory of what's being learned by loba-NN.
 <br>
 
 ##### `Direct Hypothesis Testing:`
-&nbsp; Above, I've used loba-NN to transform the latent density distribution into the observed space. The nature of invertible neural networks is to enact this space transform in either direction. In the opposite direction, we may transform a set of observed values (like in an experimental sample) into the latent density. This means we may directly rate the accuracy of our statistical model based on how "extreme" the latent mappings, *ie:* **p-values** are. <br>
+Above, I've used loba-NN to transform the latent density distribution into the observed space. The nature of invertible neural networks is to enact this space transform in either direction. In the opposite direction, we may transform a set of observed values (like in an experimental sample) into the latent density. This means we may directly rate the accuracy of our statistical model based on how "extreme" the latent mappings, *ie:* **p-values** are. <br>
 More interestingly, we may dive further into the latent representation and see exactly which independent latent variables agree/disagree with the new data. Unlike standard hypothesis testing encountered in a statistics course, we may analyze at a deeper level which aspects of the statistical model are good, and which may need updating.<br>
 Note: This is analogous to anomaly detection using VAEs, save for the fact that our space transform is bijective and deterministic.
 
@@ -146,7 +146,7 @@ Note: This is analogous to anomaly detection using VAEs, save for the fact that 
 <br>
 
 ##### `Integration of the Learned Manifold for Practical Use:`
-&nbsp; The insights loba-NN has discovered are easily incorporated into our existing quantitative/dynamical models. Indeed, the trained
+The insights loba-NN has discovered are easily incorporated into our existing quantitative/dynamical models. Indeed, the trained
 neural network is itself, as per the notion of ***identifiability***, representing the conditional parameterization of the oscillatory system-of-ODEs.
 
 `Biotech Example:` &nbsp; Suppose we have data obtained from a high-throughput, barcoding, transcriptional-NGS procedure. Using loba-NN as a simulation to guide our modifications, we may devise a transgenic cell-line that maintains a specific oscillatory homeostasis, wherein the cell-line expresses a set of transcriptional signals (*ie*: conditioning variables/ODE parameters), such that the cell-line is **NEVER**, or perhaps **ALWAYS**, undergoing the exampled Hopf bifurcation. <br>
@@ -157,7 +157,7 @@ Of course, there's more interesting phenotypes that can be developed beyond a si
 
 
 ## `Weaknesses:`
-&nbsp;The bijectivity of the probability-space transform performed by loba-NN and other invertible-flow networks allows one to specify structural qualities in the manifold of the data, however this bijectivity requirement means that discrete structures (wherein a probability-mapping/surjective-mapping must be used) such as clusters separated by large
+The bijectivity of the probability-space transform performed by loba-NN and other invertible-flow networks allows one to specify structural qualities in the manifold of the data, however this bijectivity requirement means that discrete structures (wherein a probability-mapping/surjective-mapping must be used) such as clusters separated by large
 euclidean distances are not suitable. Although loba-NN will learn to place a low probability manifold in these spaces, it will still consider "something" to be there, when it should assume nothing is there.
 <br>
 This issue can be investigated by considering the differences of a ***stochastic mapping*** and a ***bijective mapping***. 
