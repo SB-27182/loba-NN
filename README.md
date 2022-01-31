@@ -38,7 +38,7 @@ Loba-NN is an invertible-flow neural network that emphasizes the existence of hi
     </kbd>
 </p>
 
-&nbsp; <sub>*Note: It's not explicitly written in the above, but one should note that parameters conditioned on x<sub>3</sub> are in reality also conditioned on the weights of the relevant encoding neural network.*</sub> 
+&nbsp; <sub>*Note: One should know that parameters conditioned on x<sub>3</sub> are in reality also conditioned on the weights of the relevant encoding neural network.*</sub> 
  <br>
 &nbsp; <sub>*Note: I-naught is the zero-order Bessel equation.*</sub>
 
