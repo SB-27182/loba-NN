@@ -2,7 +2,7 @@
 # `Loba-NN:` &nbsp; <ins>*l*</ins>atent <ins>*o*</ins>scilatory <ins>*b*</ins>ayesian <ins>*a*</ins>nalysis
 
 <p align="center">
-  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrtho_logo.png", width=185, height=170, border="1" />
+  <img style='border:1px solid #000000' src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrtho_logo.png" width=185 height=170 />
 </p>
 
 ## `Goal: `
