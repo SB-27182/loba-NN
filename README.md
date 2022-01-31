@@ -12,7 +12,7 @@ Mine relevant estimators from data where the data has been produced by an unknow
 
 
 ## `Implementation: `
-Loba-NN is an invertible-flow neural network that emphasizes the existence of hidden oscillatory manifolds in the data. Under the assumption of identifiability <sup>[*Sokol.*](https://arxiv.org/pdf/1401.7899.pdf)</sup>, it finds the conditionally-independent, latent probability manifold that partitions the behavior of the underlying generator function.
+Loba-NN is an invertible-flow neural network that emphasizes the existence of hidden oscillatory manifolds in the data. Under the assumption of identifiability, <sup>[*Sokol.*](https://arxiv.org/pdf/1401.7899.pdf)</sup> it finds the conditionally-independent, latent probability manifold that partitions the behavior of the underlying generator function.
     
 <br>
 
