@@ -146,8 +146,8 @@ Note: This is analogous to anomaly detection using VAEs, save for the fact that 
 <br>
 
 ##### `Integration of the Learned Manifold for Practical Use:`
-The insights loba-NN has discovered are easily incorporated into existing quantitative/dynamical models. Indeed, the trained
-neural network is itself, as per the notion of ***identifiability***, representing the conditional parameterization of the oscillatory system-of-ODEs.
+The insights loba-NN has discovered are easily incorporated into existing quantitative/dynamical models. This is to say, the trained
+neural network is itself representing the conditional parameterization of the oscillatory system-of-ODEs (*ie: the generator function).*
 
 `Biotech Example:` &nbsp; Suppose we have data obtained from a high-throughput, barcoding, transcriptional-NGS procedure. Using loba-NN as a simulation to guide our modifications, we may devise a transgenic cell-line that maintains a specific oscillatory homeostasis, wherein the cell-line expresses a set of transcriptional signals (*ie*: conditioning variables/ODE parameters), such that the cell-line is **NEVER**, or perhaps **ALWAYS**, undergoing the exampled Hopf bifurcation. <br>
 Of course, there's more interesting phenotypes that can be developed beyond a simple boolean about a bifurcation; *eg*: functions of parameters in the stability-space of the dynamical system.
