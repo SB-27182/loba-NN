@@ -113,10 +113,10 @@ To further investigate the behavior of the estimated generator function, we may 
 <br>
 &nbsp; <sub> *Indeed, I'm unable to train most neural networks at all because of my GPU, despite it's CUDA compatibility.*</sub>
 <br>
-&nbsp; <sub> *Although training any invertible-flow-network is extremely fast, a training session using the [celebrity-faces](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset crashes around 100 epochs.*</sub> -->
+&nbsp; <sub> *Although training any invertible-flow-network is extremely fast, a training session using the [celebrity-faces](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset crashes around 100 epochs.*</sub>
 
 
-Fortunately, we may infer the trajectory of what's being learned by loba-NN.
+Fortunately, we may infer the trajectory of what's being learned by loba-NN. -->
 
 <br>
 <br>
