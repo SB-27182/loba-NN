@@ -109,11 +109,11 @@ At any rate, loba-NN is indicating it is much more *unsure* of the discovered os
 
 To further investigate the behavior of the estimated generator function, we may artificially down-scale the conditional variance of one latent variable, and leave the other unchanged. This reveals that about the critical-value of x<sub>3</sub>, one latent variable supports the oscillator, while the other is in the process of learning the bifurcated limit-cycle. <br>
 
-&nbsp; <sub> *Note: I use the phrase "process of learning" here because my 750ti GPU routinely has a hardware error around 2000 epochs. This is purely an issue on my end.*</sub>
+<!--&nbsp; <sub> *Note: I use the phrase "process of learning" here because my 750ti GPU routinely has a hardware error around 2000 epochs. This is purely an issue on my end.*</sub>
 <br>
 &nbsp; <sub> *Indeed, I'm unable to train most neural networks at all because of my GPU, despite it's CUDA compatibility.*</sub>
 <br>
-&nbsp; <sub> *Although training any invertible-flow-network is extremely fast, a training session using the [celebrity-faces](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset crashes around 100 epochs.*</sub>
+&nbsp; <sub> *Although training any invertible-flow-network is extremely fast, a training session using the [celebrity-faces](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset crashes around 100 epochs.*</sub> -->
 
 
 Fortunately, we may infer the trajectory of what's being learned by loba-NN.
