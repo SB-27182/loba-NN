@@ -161,7 +161,7 @@ The bijectivity of the probability-space transform performed by loba-NN and othe
 euclidean distances are not suitable. Although loba-NN will learn to place a low probability manifold in these spaces, it will still consider "something" to be there, when it should assume nothing is there.
 <br>
 This issue can be investigated by considering the differences of a ***stochastic mapping*** and a ***bijective mapping***. 
-- ***Bijective mappings*** require that the space-transform from the input space to the output space, be a  continuous manifold; naturally this means that the domain and the co-domain must be equal in number of dimensions. In a nutshell, the only way loba-NN can interpret clusters is via "walking the distance" from cluster to cluster.
+- ***Bijective mappings*** require that the space-transform from the input space to the output space, be a  continuous manifold; naturally this means that the domain and the co-domain must be equal in number of dimensions. In a nutshell, the only way loba-NN can interpret clusters is via "walking the distance" from cluster to cluster *ie:* loba-NN learns a *diffeomorphism* between the observed space and the latent space.
 -  ***Stochastic mappings*** can map from a domain of any size, to a codomain of any size. This is because they learn a probabilistic density that maps between spaces. In simple words, any constraints placed on the latent density-space of a VAE, will be "jumped over" via a probability-mapping.
 
 <br>
