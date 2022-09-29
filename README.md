@@ -168,7 +168,7 @@ This issue can be investigated by considering the differences of a ***stochastic
 
 **Stochastic mapping NNs however, are very well equipped for hyper dimensional clustering <sup>[*Jiang.*](https://arxiv.org/abs/1611.05148)</sup>.**
 
-**In short:** one should use a VAE to account for discrete structures in the continuous data. Deeper insights can then be acquired by deploying an invertible-flow network, like loba-NN, on these partitioning continuous manifolds, if one chooses to use a invertible-flow architecture.
+**In short:** one should use a VAE to account for discrete structures in the continuous data. Deeper insights can then be acquired by deploying an invertible-flow network, like loba-NN, on these partitioning continuous manifolds, if one intends to use a invertible-flow architecture.
 
 
 
