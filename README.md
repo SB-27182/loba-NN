@@ -124,7 +124,7 @@ Fortunately, we may infer the trajectory of what's being learned by loba-NN. -->
 ## `Other Strengths: `
 
 ##### `Immunity to Mode Collapse:`
-Unlike Euclidean models, the existence of multiple clusters (and their modes) in the data does not cause a **logical error** *ie*: a mode-collapse. Although discrete structures such as multiple modes are not ideal for our purposes (more on that later), loba-NN, and all invertible-flow networks will happily bend hyper dimensional space to make sense of the observed probability density.
+Unlike classical maximum likelihood models, the existence of multiple clusters (and their modes) in the data does not cause a **logical error** *ie*: a mode-collapse. Although discrete structures such as multiple modes are not ideal for our purposes (more on that later), loba-NN, and all invertible-flow networks will happily bend hyper dimensional space to make sense of the observed probability density.
 
 
 <br>
